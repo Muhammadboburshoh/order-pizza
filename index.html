@@ -14,71 +14,74 @@
     <h1 class="text-center my-4">Pitsa pishiramiz</h1>
     <p class="text-center h4 mb-0"><span class="text-info">Chopmas</span> pitsada endi siz o'zingiz xohlagan pitsani yig'ib olishingiz mumkin.</p>
 
-    <select class="form-control w-25 mx-auto mt-3" name="pizza-bread" id="pizza-bread">
-      <option selected disabled>1. Pitsa nonining qalinligi</option>
-      <option value="1">ingichka</option>
-      <option value="2">o'rtacha</option>
-      <option value="3">qalin</option>
-      <option value="4">o'lka non</option>
-    </select>
 
-    <h2 class="text-center font-weight-bold mt-5">2. Pitsaning ustiga joylanadigan narsalar turlari</h2>
-    <div class="custom-control custom-switch mt-2">
-      <input checked class="custom-control-input" id="beef" type="checkbox">
-      <label class="custom-control-label" for="beef">mol go'shti</label>
-    </div>
-    <div class="custom-control custom-switch mt-2">
-      <input class="custom-control-input" id="chicken-meat" type="checkbox">
-      <label class="custom-control-label" for="chicken-meat">tovuq go'shti</label>
-    </div>
-    <div class="custom-control custom-switch mt-2">
-      <input class="custom-control-input" id="turkey-meat" type="checkbox">
-      <label class="custom-control-label" for="turkey-meat">kurka go'shti</label>
-    </div>
-    <div class="custom-control custom-switch mt-2">
-      <input class="custom-control-input" id="halal-sausage" type="checkbox">
-      <label class="custom-control-label" for="halal-sausage">halol kolbasa</label>
-    </div>
-    <div class="custom-control custom-switch mt-2">
-      <input checked class="custom-control-input" id="mushroom" type="checkbox">
-      <label class="custom-control-label" for="mushroom">qo'ziqorin</label>
-    </div>
-    <div class="custom-control custom-switch mt-2">
-      <input class="custom-control-input" id="greens" type="checkbox">
-      <label class="custom-control-label" for="greens">ko'katlar</label>
-    </div>
-    <div class="custom-control custom-switch mt-2">
-      <input class="custom-control-input" id="tomato" type="checkbox">
-      <label class="custom-control-label" for="tomato">pomidor</label>
-    </div>
-    <div class="custom-control custom-switch mt-2">
-      <input class="custom-control-input" id="cucumber" type="checkbox">
-      <label class="custom-control-label" for="cucumber">bodring</label>
-    </div>
-    <div class="custom-control custom-switch mt-2">
-      <input checked class="custom-control-input" id="olive" type="checkbox">
-      <label class="custom-control-label" for="olive">zaytun</label>
-    </div>
-    <div class="custom-control custom-switch mt-2">
-      <input class="custom-control-input" id="cheese" type="checkbox">
-      <label class="custom-control-label" for="cheese">2 hissa pishloq</label>
-    </div>
-
-    <h3 class="text-center mt-5 font-weight-bold">3. Qo'shimchalar</h3>
-    <section class="d-flex flex-column mx-auto mb-5">
-      <div style="margin-left: 45%;" class="form-check">
-        <input class="form-check-input" type="checkbox" value="01" id="chile">
-        <label class="form-check-label" for="chile">achchiq</label>
+    <form class="making-pizza" action="https://echo.htmlacademy.ru">
+      <select class="pizza-bread form-control w-25 mx-auto mt-3" name="pizza-bread" id="pizza-bread">
+        <option selected disabled>1. Pitsa nonining qalinligi</option>
+        <option value="ingichka">ingichka</option>
+        <option value="o'rtacha">o'rtacha</option>
+        <option value="qalin">qalin</option>
+        <option value="bo'lka non">bo'lka non</option>
+      </select>
+  
+      <h2 class="text-center font-weight-bold mt-5">2. Pitsaning ustiga joylanadigan narsalar turlari</h2>
+      <div class="custom-control custom-switch mt-2">
+        <input checked class="on-the-pizza custom-control-input" id="beef" value="mol go'shti " type="checkbox">
+        <label class="custom-control-label" for="beef">mol go'shti</label>
       </div>
-      <div style="margin-left: 45%;" class="form-check">
-        <input class="form-check-input" type="checkbox" value="02" id="small-sausage">
-        <label class="form-check-label" for="small-sausage">chetida sosiskalari bor</label>
+      <div class="custom-control custom-switch mt-2">
+        <input class="on-the-pizza custom-control-input" id="chicken-meat" type="checkbox">
+        <label class="custom-control-label" for="chicken-meat">tovuq go'shti</label>
       </div>
-    </section>
+      <div class="custom-control custom-switch mt-2">
+        <input class="on-the-pizza custom-control-input" id="turkey-meat" type="checkbox">
+        <label class="custom-control-label" for="turkey-meat">kurka go'shti</label>
+      </div>
+      <div class="custom-control custom-switch mt-2">
+        <input class="on-the-pizza custom-control-input" id="halal-sausage" type="checkbox">
+        <label class="custom-control-label" for="halal-sausage">halol kolbasa</label>
+      </div>
+      <div class="custom-control custom-switch mt-2">
+        <input checked class="on-the-pizza custom-control-input" id="mushroom" type="checkbox">
+        <label class="custom-control-label" for="mushroom">qo'ziqorin</label>
+      </div>
+      <div class="custom-control custom-switch mt-2">
+        <input class="on-the-pizza custom-control-input" id="greens" type="checkbox">
+        <label class="custom-control-label" for="greens">ko'katlar</label>
+      </div>
+      <div class="custom-control custom-switch mt-2">
+        <input class="on-the-pizza custom-control-input" id="tomato" type="checkbox">
+        <label class="custom-control-label" for="tomato">pomidor</label>
+      </div>
+      <div class="custom-control custom-switch mt-2">
+        <input class="on-the-pizza custom-control-input" id="cucumber" type="checkbox">
+        <label class="custom-control-label" for="cucumber">bodring</label>
+      </div>
+      <div class="custom-control custom-switch mt-2">
+        <input checked class="on-the-pizza custom-control-input" id="olive" type="checkbox">
+        <label class="custom-control-label" for="olive">zaytun</label>
+      </div>
+      <div class="custom-control custom-switch mt-2">
+        <input class="on-the-pizza custom-control-input" id="cheese" type="checkbox">
+        <label class="custom-control-label" for="cheese">2 hissa pishloq</label>
+      </div>
+  
+      <h3 class="text-center mt-5 font-weight-bold">3. Qo'shimchalar</h3>
+      <section class="d-flex flex-column mx-auto mb-5">
+        <div style="margin-left: 45%;" class="form-check">
+          <input class="additions form-check-input" type="checkbox" id="chile">
+          <label class="form-check-label" for="chile">achchiq</label>
+        </div>
+        <div style="margin-left: 45%;" class="form-check">
+          <input class="additions form-check-input" type="checkbox" id="small-sausage">
+          <label class="form-check-label" for="small-sausage">chetida sosiskalari bor</label>
+        </div>
+      </section>
+  
+    </form>
 
 
-
-      <div class="reold-alert text-center alert w-25 mx-auto mt-5 d-none"></div>
+      <ul class="about-pizza list-group"></ul>
   </div>
 
   <script src="js/jquery-3.5.1.min.js"></script>
